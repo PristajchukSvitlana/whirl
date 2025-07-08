@@ -203,54 +203,38 @@ body {
     background-color: #F7CEDC;
 }
 
-/* Блок загалом */
+
 .whirl-info {
-
     display: flex;
-    margin-bottom: 120px;
-
-
-    /* загальні стилі для секції, наприклад: padding, background тощо */
+    padding-bottom: 120px;
+    padding-top: 120px;
+    background-color: lightgoldenrodyellow
 }
 
-/* Заголовок блоку */
 .whirl-info__title {
-    /* стилі для h2 */
     font-family: Fraunces;
     font-weight: 400;
     font-size: 36px;
     line-height: 50.4px;
-
-
 }
 
-/* Контейнер для елементів */
 .whirl-info__list {
     display: flex;
     align-items: flex-end;
-
-    /* flex, grid або інші способи розміщення елементів */
 }
 
-/* Окремий елемент (стаття/бокс) */
 .whirl-info__item {
-    /* стилі кожного елемента */
 
     width: 223px;
     margin-right: 32px;
-
-
 }
 
 .whirl-info-left__item {
     width: 300px;
-
     margin-right: 98px;
 }
 
-/* Заголовок всередині елемента */
 .whirl-info__item-title {
-    /* стилі h3 */
     font-family: Fraunces;
     font-weight: 400;
     font-size: 25px;
@@ -258,7 +242,6 @@ body {
     letter-spacing: 0.2px;
 }
 
-/* Текстовий опис елемента */
 .whirl-info__item-text {
     font-family: Inter;
     font-weight: 400;
@@ -273,5 +256,87 @@ body {
     width: 45px;
     height: 45px;
     padding: 2px;
+}
+
+/*blue section*/
+
+/* Блок */
+.feature-track {
+    background-color: #0070A0;
+    padding-top: 81px;
+    padding-bottom: 80px;
+    margin-bottom: 20px;
+}
+
+/* Елемент: обгортка контенту (гнучкий контейнер) */
+.feature-track__container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 187px;
+}
+
+/* Елемент: зображення і його обгортка */
+.feature-track__image-wrapper {}
+
+
+.feature-track__image {}
+
+/* Елемент: текстовий контент */
+.feature-track__content {
+    width: 501px;
+}
+
+/* Елементи контенту */
+.feature-track__title {
+    font-family: "Fraunces", serif;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 50.4px;
+    letter-spacing: 0.2px;
+    color: white;
+    margin-bottom: 18px;
+
+}
+
+.feature-track__description {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+    color: white;
+    margin-bottom: 20px;
+
+}
+
+/* Список переваг */
+.feature-track__list {
+    list-style-type: none;
+    margin-bottom: 17px;
+
+}
+
+.feature-track__list-item {
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 21.6px;
+    letter-spacing: 0.2px;
+    color: white;
+    margin-bottom: 12px;
+
+}
+
+/* Кнопка / посилання-призов до дії */
+.feature-track__cta {
+    color: white;
+    font-family: "Inter", sans-serif;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.2px;
+
+    padding: 21px;
 
 }
