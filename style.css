@@ -139,9 +139,7 @@ body {
     padding-bottom: 160px;
 }
 
-.trust__container {}
 
-.center {}
 
 .trust__title {
     font-size: 24px;
@@ -163,9 +161,7 @@ body {
     margin-bottom: 120px;
 }
 
-.benefits__container {}
 
-.center {}
 
 .benefits__items {
     display: flex;
@@ -181,7 +177,6 @@ body {
     background-color: #FAEA73;
 }
 
-.benefits__icon {}
 
 .benefits__title {
     font-size: 25px;
@@ -206,4 +201,77 @@ body {
 
 .benefits__item--pink {
     background-color: #F7CEDC;
+}
+
+/* Блок загалом */
+.whirl-info {
+
+    display: flex;
+    margin-bottom: 120px;
+
+
+    /* загальні стилі для секції, наприклад: padding, background тощо */
+}
+
+/* Заголовок блоку */
+.whirl-info__title {
+    /* стилі для h2 */
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 50.4px;
+
+
+}
+
+/* Контейнер для елементів */
+.whirl-info__list {
+    display: flex;
+    align-items: flex-end;
+
+    /* flex, grid або інші способи розміщення елементів */
+}
+
+/* Окремий елемент (стаття/бокс) */
+.whirl-info__item {
+    /* стилі кожного елемента */
+
+    width: 223px;
+    margin-right: 32px;
+
+
+}
+
+.whirl-info-left__item {
+    width: 300px;
+
+    margin-right: 98px;
+}
+
+/* Заголовок всередині елемента */
+.whirl-info__item-title {
+    /* стилі h3 */
+    font-family: Fraunces;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 31.25px;
+    letter-spacing: 0.2px;
+}
+
+/* Текстовий опис елемента */
+.whirl-info__item-text {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    margin-top: 7px;
+
+}
+
+.whirl-info__item-icon {
+    width: 45px;
+    height: 45px;
+    padding: 2px;
+
 }
